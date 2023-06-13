@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		C51FD6E02A38643200DA8559 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51FD6DF2A38643200DA8559 /* AppDelegate.swift */; };
 		C51FD6E22A38643200DA8559 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51FD6E12A38643200DA8559 /* SceneDelegate.swift */; };
-		C51FD6E42A38643200DA8559 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51FD6E32A38643200DA8559 /* ViewController.swift */; };
+		C51FD6E42A38643200DA8559 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51FD6E32A38643200DA8559 /* MyViewController.swift */; };
 		C51FD6E72A38643200DA8559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51FD6E52A38643200DA8559 /* Main.storyboard */; };
 		C51FD6E92A38643400DA8559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51FD6E82A38643400DA8559 /* Assets.xcassets */; };
 		C51FD6EC2A38643400DA8559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51FD6EA2A38643400DA8559 /* LaunchScreen.storyboard */; };
 		C51FD6F72A38643400DA8559 /* CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51FD6F62A38643400DA8559 /* CounterTests.swift */; };
 		C51FD7012A38643400DA8559 /* CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51FD7002A38643400DA8559 /* CounterUITests.swift */; };
 		C51FD7032A38643400DA8559 /* CounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51FD7022A38643400DA8559 /* CounterUITestsLaunchTests.swift */; };
+		C51FD7102A38660300DA8559 /* testFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51FD70F2A38660300DA8559 /* testFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		C51FD6DC2A38643200DA8559 /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51FD6DF2A38643200DA8559 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C51FD6E12A38643200DA8559 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C51FD6E32A38643200DA8559 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C51FD6E32A38643200DA8559 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		C51FD6E62A38643200DA8559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C51FD6E82A38643400DA8559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C51FD6EB2A38643400DA8559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		C51FD6FC2A38643400DA8559 /* CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51FD7002A38643400DA8559 /* CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterUITests.swift; sourceTree = "<group>"; };
 		C51FD7022A38643400DA8559 /* CounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C51FD70F2A38660300DA8559 /* testFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +103,12 @@
 			children = (
 				C51FD6DF2A38643200DA8559 /* AppDelegate.swift */,
 				C51FD6E12A38643200DA8559 /* SceneDelegate.swift */,
-				C51FD6E32A38643200DA8559 /* ViewController.swift */,
+				C51FD6E32A38643200DA8559 /* MyViewController.swift */,
 				C51FD6E52A38643200DA8559 /* Main.storyboard */,
 				C51FD6E82A38643400DA8559 /* Assets.xcassets */,
 				C51FD6EA2A38643400DA8559 /* LaunchScreen.storyboard */,
 				C51FD6ED2A38643400DA8559 /* Info.plist */,
+				C51FD70F2A38660300DA8559 /* testFile.swift */,
 			);
 			path = Counter;
 			sourceTree = "<group>";
@@ -258,7 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C51FD6E42A38643200DA8559 /* ViewController.swift in Sources */,
+				C51FD6E42A38643200DA8559 /* MyViewController.swift in Sources */,
+				C51FD7102A38660300DA8559 /* testFile.swift in Sources */,
 				C51FD6E02A38643200DA8559 /* AppDelegate.swift in Sources */,
 				C51FD6E22A38643200DA8559 /* SceneDelegate.swift in Sources */,
 			);
