@@ -81,8 +81,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="counterValue" destination="ZgL-5h-pFJ" id="5Wu-RW-5sc"/>
-                        <outlet property="historyOfChange" destination="XP2-EP-tAg" id="h5Y-Ah-Q2l"/>
+                        <outlet property="counterValue" destination="ZgL-5h-pFJ" id="1Gn-rH-PD0"/>
+                        <outlet property="historyOfChangeTextView" destination="XP2-EP-tAg" id="zk5-Oa-ezS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
